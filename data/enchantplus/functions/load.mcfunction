@@ -42,7 +42,7 @@ scoreboard players set #AreaSeedPlanter AreaSeedPlanter 3
 scoreboard players set #2 AreaSeedPlanter 2
 
 #Tellraw
-tellraw @a ["",{"text":"     TEZFFEZ                 *--*--*------*--*--*","color":"gold"}]
+tellraw @a ["",{"text":"     TEZFFEZaaa                 *--*--*------*--*--*","color":"gold"}]
 tellraw @a ["",{"text":"                    *-----*","color":"gold"},{"text":" By Hardel ","color":"red"},{"text":"*-----*","color":"gold"}]
 tellraw @a ["",{"text":"            *-------*","color":"gold"},{"text":" Enchant ","color":"red"},{"text":"is ready! *-------*","color":"gold"}]
 tellraw @a ["",{"text":"*--*---*-----*---*---*--*-----*--*---*---*-----*---*--*","color":"gold"}]
