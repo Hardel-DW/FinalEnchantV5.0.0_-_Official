@@ -1,0 +1,53 @@
+{
+    "rewards": {
+        "function": "enchantplus:result/seed_planter/core"
+    },
+    "criteria": {
+        "wheat": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wheat"
+            }
+        },
+        "pumpkin_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:pumpkin_stem"
+            }
+        },
+        "melon_stem": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:melon_stem"
+            }
+        },
+        "carrots": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:carrots"
+            }
+        },
+        "potatoes": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:potatoes"
+            }
+        },
+        "beetroots": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:beetroots"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wheat",
+            "pumpkin_stem",
+            "melon_stem",
+            "beetroots",
+            "potatoes",
+            "carrots"
+        ]
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "rewards": {
+    "function": "enchantplus:result/beaker_plus/core"
+  },
+  "criteria": {
+    "seedplanter": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "nbt": "{CustomEnchantments:{BeakerPlus:1}}"
+        }
+      }
+    }
+  }
+}

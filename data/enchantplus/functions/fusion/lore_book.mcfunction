@@ -1,0 +1,56 @@
+data remove entity @s Item.tag.display.Lore
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life+ I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life+ II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life+ III\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:4}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life+ IV\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:5}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life+ V\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Attack Speed I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Attack Speed II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Attack Speed III\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Agility I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Agility II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Agility III\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Leaping",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Leaping I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Leaping",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Leaping II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Leaping",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Leaping III\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Poison Aspect I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Poison Aspect II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Poison Aspect III\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Xp Boost I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Xp Boost II\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:3}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Xp Boost III\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Haste",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Haste I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Haste",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Haste II\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiVenom",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"AntiVenom I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiVenom",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"AntiVenom II\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"TimeBreaker",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Time breaker I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"TimeBreaker",lvl:2}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Time breaker II\",\"color\":\"gray\",\"italic\":false}"
+
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AccuracyShot",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Accuracy Shot I\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiKnockback",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Anti-Knockback\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiExplosion",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Anti-Explosion\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AutoFeed",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Auto-Feed\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AutoSmelt",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Auto-Smelt\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BloodyBlade",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Bloody Blade\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BrightVision",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Bright Vision\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BurstArrow",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Burst Arrow\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LavaWalker",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Lava Walker\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"SkyWalk",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Sky Wal\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LastLife",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Last Life\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifeSteal",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Life Steal\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Magnet",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Magnet\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"MiningPlus",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Mining+\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"SwimPlus",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Swim+\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Timber",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Timber\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"VeinMiner",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"OneBirthday",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Enchant+ 1 Years ! - (01/07/2018)\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BeaherPlus",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Beaher Plus\",\"color\":\"gray\",\"italic\":false}"
+data modify entity @s[nbt={Item:{tag:{StoredCustomEnchantments:[{id:"SeedPlanter",lvl:1}]}}}] Item.tag.display.Lore insert 0 value "{\"text\":\"Seed Planter\",\"color\":\"gray\",\"italic\":false}"

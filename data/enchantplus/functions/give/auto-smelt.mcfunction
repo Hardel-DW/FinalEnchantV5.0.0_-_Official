@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AutoSmelt",lvl:1}],display:{Lore:["{\"text\":\"Auto-Smelt\",\"color\":\"gray\",\"italic\":false}"]}}

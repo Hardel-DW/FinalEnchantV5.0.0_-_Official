@@ -1,0 +1,3 @@
+execute if score #SwimPlus EnchantConfig matches 1 if entity @s[nbt={Inventory:[{Slot:101b,tag:{CustomEnchantments:{SwimPlus:1}}}]}] unless entity @s[nbt={ActiveEffects:[{Id:30b}]}] run effect give @s minecraft:dolphins_grace 5 0 true
+execute if score #Leaping EnchantConfig matches 1 if entity @s[nbt={Inventory:[{Slot:101b,tag:{CustomEnchantments:{AntiLagLeaping:1}}}]}] unless entity @s[nbt={ActiveEffects:[{Id:8b}]}] run function enchantplus:result/leaping
+execute if score #LastLife EnchantConfig matches 1 if entity @a[nbt={Inventory:[{Slot:101b,tag:{CustomEnchantments:{LastLife:1}}}]}] at @s run function enchantplus:result/lastlife

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"BurstArrow",lvl:1}],display:{Lore:["{\"text\":\"Burst Arrow\",\"color\":\"gray\",\"italic\":false}"]}}

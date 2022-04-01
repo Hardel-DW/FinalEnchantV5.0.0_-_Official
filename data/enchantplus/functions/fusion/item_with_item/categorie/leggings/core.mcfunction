@@ -1,0 +1,5 @@
+execute if entity @s[nbt={Item:{id:"minecraft:leather_leggings"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:leather_leggings"}}] run function enchantplus:fusion/item_with_item/categorie/leggings/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:chainmail_leggings"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:chainmail_leggings"}}] run function enchantplus:fusion/item_with_item/categorie/leggings/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:iron_leggings"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:iron_leggings"}}] run function enchantplus:fusion/item_with_item/categorie/leggings/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:golden_leggings"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:golden_leggings"}}] run function enchantplus:fusion/item_with_item/categorie/leggings/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:diamond_leggings"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:diamond_leggings"}}] run function enchantplus:fusion/item_with_item/categorie/leggings/enchant

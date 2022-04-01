@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Magnet"
+        },
+        "description": {
+            "text": "Attracts all the items around you."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"chestplate\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/time_breaker"
+}

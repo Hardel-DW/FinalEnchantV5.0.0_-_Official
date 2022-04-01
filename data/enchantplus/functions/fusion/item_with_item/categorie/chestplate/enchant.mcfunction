@@ -1,0 +1,22 @@
+#--------------------- Upgrade Level---------------------#
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/lifeplus2
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/lifeplus3
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/lifeplus4
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/lifeplus5
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AntiVenom:1}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AntiVenom:1}}}},limit=1] run data merge entity @s {Item:{tag:{CustomEnchantments:{AntiVenom:2}}}}
+
+#--------------------- Remove Data Debug---------------------#
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.LifePlus
+
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AntiVenom:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AntiVenom:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.AntiVenom
+
+function enchantplus:fusion/item_with_item/end

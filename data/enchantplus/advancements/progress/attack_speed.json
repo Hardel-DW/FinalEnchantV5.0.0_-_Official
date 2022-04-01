@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - AttackSpeed"
+        },
+        "description": {
+            "text": "Increases the attack speed of your sword. Available from level I to level III."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{AttackSpeed:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/sword"
+}

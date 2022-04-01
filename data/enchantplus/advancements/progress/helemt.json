@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Helmet+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the helmet and its description."
+        },
+        "icon": {
+            "item": "minecraft:diamond_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "helmet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"helmet\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/armor"
+}

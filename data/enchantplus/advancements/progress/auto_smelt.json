@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Auto Smelt"
+        },
+        "description": {
+            "text": "Instantly smelt the blocks you mine. Compatible with : \"Mining+\", \"Timber\" and \"Vein Miner\"."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{AutoSmelt:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/miningplus"
+}

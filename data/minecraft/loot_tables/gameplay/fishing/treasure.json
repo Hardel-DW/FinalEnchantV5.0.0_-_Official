@@ -1,0 +1,134 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredCustomEnchantments:[{id:\"AccuracyShot\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Accuracy Shot\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredCustomEnchantments:[{id:\"AntiKnockback\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Anti-Knockback\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredCustomEnchantments:[{id:\"AutoSmelt\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Auto-Smelt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredCustomEnchantments:[{id:\"MiningPlus\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Mining+\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredCustomEnchantments:[{id:\"BrightVision\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Bright Vision\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lily_pad",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:name_tag",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.25
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "set_damage",
+                            "damage": {
+                                "min": 0,
+                                "max": 0.25
+                            }
+                        },
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:nautilus_shell",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

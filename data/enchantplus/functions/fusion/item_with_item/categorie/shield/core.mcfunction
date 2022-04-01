@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Item:{id:"minecraft:shield"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:shield"}}] run function enchantplus:fusion/item_with_item/categorie/shield/enchant

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "has_wind_items": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{TheftProtection:1}}",
+                        "items": [
+                            "minecraft:elytra"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "enchantplus:result/theft_protection_condition"
+    }
+}

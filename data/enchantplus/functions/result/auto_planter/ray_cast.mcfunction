@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ air run fill ~-2 ~ ~-2 ~2 ~ ~2 minecraft:farmland replace minecraft:grass_block
+execute if block ~ ~ ~ air positioned ^ ^ ^1 run function enchantplus:result/beaker_plus/ray_cast

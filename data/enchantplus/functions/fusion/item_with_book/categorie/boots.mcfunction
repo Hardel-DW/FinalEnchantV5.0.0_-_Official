@@ -1,0 +1,12 @@
+#Boots
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/agility1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/agility2
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Agility:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/agility3
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LavaWalker:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LavaWalker",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/lava_walker
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{SkyWalk:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"SkyWalk",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/sky_walk
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{OneBirthday:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"OneBirthday",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/one_birthday
+
+#Item + enchanted book de meme niveau
+execute if entity @s[tag=!HasCustomEnchantAgility,nbt={Item:{tag:{CustomEnchantments:{Agility:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/agility2
+execute if entity @s[tag=!HasCustomEnchantAgility,nbt={Item:{tag:{CustomEnchantments:{Agility:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Agility",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/agility3
+tag @s remove HasCustomEnchantAgility

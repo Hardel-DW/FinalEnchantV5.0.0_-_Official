@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AntiKnockback",lvl:1}],display:{Lore:["{\"text\":\"Anti-Knockback\",\"color\":\"gray\",\"italic\":false}"]}}

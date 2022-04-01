@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Bloody blade"
+        },
+        "description": {
+            "text": "Constantly killing enemies will increase your damage temporarily."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{BloodyBlade:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/xp_boost"
+}

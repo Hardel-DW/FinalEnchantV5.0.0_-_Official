@@ -1,0 +1,2 @@
+execute if entity @s[nbt={Item:{id:"minecraft:bow"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:bow"}}] run function enchantplus:fusion/item_with_item/categorie/bow/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:crossbow"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:crossbow"}}] run function enchantplus:fusion/item_with_item/categorie/bow/enchant

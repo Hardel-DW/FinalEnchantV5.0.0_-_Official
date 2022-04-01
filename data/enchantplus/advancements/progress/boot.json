@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Boots+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the boots and its description."
+        },
+        "icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "boots": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"boots\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/armor"
+}

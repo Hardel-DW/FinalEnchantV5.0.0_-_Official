@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Time breaker"
+        },
+        "description": {
+            "text": "Slows down the enemies around you. Available from level I to II."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{TimeBreaker:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/bright_vision"
+}

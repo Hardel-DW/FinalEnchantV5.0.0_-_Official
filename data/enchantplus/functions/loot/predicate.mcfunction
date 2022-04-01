@@ -1,0 +1,12 @@
+execute if predicate enchantplus:sword run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/sword
+execute if predicate enchantplus:pickaxe run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/pickaxe
+execute if predicate enchantplus:axe run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/axe
+execute if predicate enchantplus:hoe run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/hoe
+execute if predicate enchantplus:shovel run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/shovel
+execute if predicate enchantplus:bow run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/bow
+execute if predicate enchantplus:helmet run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/helmet
+execute if predicate enchantplus:chestplate run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/chestplate
+execute if predicate enchantplus:leggings run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/leggings
+execute if predicate enchantplus:boots run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/boots
+execute if predicate enchantplus:shield run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/shield
+execute if predicate enchantplus:elytra run loot replace block ~ ~1 ~ container.0 loot enchantplus:modify/elytra

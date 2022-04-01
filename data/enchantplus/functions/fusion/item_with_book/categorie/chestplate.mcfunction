@@ -1,0 +1,21 @@
+#Chestplate
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AutoFeed:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AutoFeed",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/auto_feed
+
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AntiVenom:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AntiVenom:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiVenom",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/anti_venom1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AntiVenom:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiVenom",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/anti_venom2
+
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus2
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus3
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:4}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus4
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifePlus:5}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:5}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus5
+
+#Item + enchanted book de meme niveau
+execute if entity @s[tag=!HasCustomEnchantAntiVenom,nbt={Item:{tag:{CustomEnchantments:{AntiVenom:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiVenom",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/anti_venom2
+
+execute if entity @s[tag=!HasCustomEnchantLifePlus,nbt={Item:{tag:{CustomEnchantments:{LifePlus:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus2
+execute if entity @s[tag=!HasCustomEnchantLifePlus,nbt={Item:{tag:{CustomEnchantments:{LifePlus:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus3
+execute if entity @s[tag=!HasCustomEnchantLifePlus,nbt={Item:{tag:{CustomEnchantments:{LifePlus:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus4
+execute if entity @s[tag=!HasCustomEnchantLifePlus,nbt={Item:{tag:{CustomEnchantments:{LifePlus:4}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifePlus",lvl:4}]}}}] run function enchantplus:fusion/item_with_book/result/lifeplus5
+tag @s remove HasCustomEnchantAntiVenom
+tag @s remove HasCustomEnchantLifePlus

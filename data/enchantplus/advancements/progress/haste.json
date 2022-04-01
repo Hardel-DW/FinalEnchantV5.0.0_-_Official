@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Haste"
+        },
+        "description": {
+            "text": "Gives you the temporary \"Haste\" potion effect when you mine an ore. Available from level I to II"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{Haste:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/toll"
+}

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AutoPlanting",lvl:1}],display:{Lore:["{\"text\":\"Auto Sappling\",\"color\":\"gray\",\"italic\":false}"]}}

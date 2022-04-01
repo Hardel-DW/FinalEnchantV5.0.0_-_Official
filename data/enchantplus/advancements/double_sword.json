@@ -1,0 +1,41 @@
+{
+    "criteria": {
+        "double_sword_main": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{CustomEnchantments:{DoubleSword:1}}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "double_sword_off": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "equipment": {
+                            "offhand": {
+                                "nbt": "{CustomEnchantments:{DoubleSword:1}}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "double_sword_off",
+            "double_sword_main"
+        ]
+    ],
+    "rewards": {
+        "function": "enchantplus:result/double_sword/condition"
+    }
+}

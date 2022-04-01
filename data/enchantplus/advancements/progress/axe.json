@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Axe+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the axe and its description."
+        },
+        "icon": {
+            "item": "minecraft:diamond_axe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "axe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"axe\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/toll"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Mining+"
+        },
+        "description": {
+            "text": "Allows you to break blocks in zones. Compatible with : \"Auto smelt\", \"Timber\" and \"Vein Miner\""
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"chestplate\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/haste"
+}

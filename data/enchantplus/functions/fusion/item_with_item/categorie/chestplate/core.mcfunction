@@ -1,0 +1,6 @@
+execute if entity @s[nbt={Item:{id:"minecraft:leather_chestplate"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:d:leather_chestplate"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:chainmail_chestplate"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft::chainmail_chestplate"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:iron_chestplate"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraf:iron_chestplate"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:golden_chestplate"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:golden_chestplate"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:diamond_chestplate"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:diamond_chestplate"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:elytra"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft::elytra"}}] run function enchantplus:fusion/item_with_item/categorie/chestplate/enchant

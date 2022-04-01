@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"LifePlus",lvl:1}],display:{Lore:["{\"text\":\"LifePlus I\",\"color\":\"gray\",\"italic\":false}"]}}

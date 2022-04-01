@@ -1,0 +1,984 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"VeinMiner\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Vein Miner\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"XpBoost\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Xp Boost I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"XpBoost\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Xp Boost II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"XpBoost\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Xp Boost III\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"BrightVision\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Bright Vision\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"PoisonAspect\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Poison Aspect I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Leaping\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Leaping I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Agility\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Agility I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LifePlus\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Life+ I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"BurstArrow\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Burst Arrow\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Haste\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Haste I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Leaping\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Leaping II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Agility\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Agility II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"PoisonAspect\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Poison Aspect II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"SwimPlus\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Swim+\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AntiExplosion\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Anti-Explosion\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AutoSmelt\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Auto-Smelt\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"BloodyBlade\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Bloody Blade\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AttackSpeed\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Attack Speed I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AttackSpeed\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Attack Speed II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LastLife\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Last Life\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AntiKnockback\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Anti-Knockback\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AccuracyShot\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Accuracy Shot\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LavaWalker\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Lava Walker\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AntiVenom\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Anti-Venom I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"TimeBreaker\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Time Breaker I\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Timber\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Timber\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"SkyWalk\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Sky Walk (Not Work)\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Agility\",lvl:3}],display:{Lore:[\"{\\\"text\\\":\\\"Agility III\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"PoisonAspect\",lvl:3}],display:{Lore:[\"{\\\"text\\\":\\\"Poison Aspect III\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Leaping\",lvl:3}],display:{Lore:[\"{\\\"text\\\":\\\"Leaping III\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"AntiVenom\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Anti-Venom II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LifePlus\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Life+ II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LifePlus\",lvl:3}],display:{Lore:[\"{\\\"text\\\":\\\"Life+ III\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"SkyWalkk\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Sky Walk\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"MiningPlus\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Mining+\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"TimeBreaker\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Time Breaker II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"LifeSteal\",lvl:1}],display:{Lore:[\"{\\\"text\\\":\\\"Life Steal\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredCustomEnchantments:[{id:\"Haste\",lvl:2}],display:{Lore:[\"{\\\"text\\\":\\\"Haste II\\\",\\\"color\\\":\\\"gray\\\",\\\"italic\\\":false}\"]}}"
+            },
+            {
+              "function": "enchant_with_levels",
+              "treasure": true,
+              "levels": {
+                "min": 15,
+                "max": 20
+              },
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.75
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

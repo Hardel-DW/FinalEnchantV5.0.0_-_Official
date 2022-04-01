@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"TimeBreaker",lvl:2}],display:{Lore:["{\"text\":\"Time Breaker I\",\"color\":\"gray\",\"italic\":false}"]}}

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"OneBirthday",lvl:1}],display:{Lore:["{\"text\":\"Enchant+ 1 Years ! - (01/07/2018)\",\"color\":\"gray\",\"italic\":false}"]}}

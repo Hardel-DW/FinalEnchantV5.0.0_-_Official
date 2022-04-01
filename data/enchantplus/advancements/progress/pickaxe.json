@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Pickaxe+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the pickaxe and its description."
+        },
+        "icon": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"pickaxe\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/toll"
+}

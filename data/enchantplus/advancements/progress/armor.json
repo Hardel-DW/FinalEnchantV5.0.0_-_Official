@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Armor+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the armor and its description."
+        },
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "armor": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"armor\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/root"
+}

@@ -1,0 +1,22 @@
+#--------------------- Upgrade Level---------------------#
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}},limit=1] run data merge entity @s {Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}},limit=1] run data merge entity @s {Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/attack_speed3
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}},limit=1] run function enchantplus:fusion/item_with_item/atribute/attack_speed3
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{XpBoost:1}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{XpBoost:1}}}},limit=1] run data merge entity @s {Item:{tag:{CustomEnchantments:{XpBoost:2,AntiLagXpBoost:1}}}}
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{XpBoost:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{XpBoost:2}}}},limit=1] run data merge entity @s {Item:{tag:{CustomEnchantments:{XpBoost:3,AntiLagXpBoost:1}}}}
+
+#--------------------- Merging Level---------------------#
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.PoisonAspect
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.AttackSpeed
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{XpBoost:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{XpBoost:2}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.XpBoost
+
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.PoisonAspect
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.AttackSpeed
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{XpBoost:3}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{XpBoost:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.XpBoost
+
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.PoisonAspect
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.AttackSpeed
+execute if entity @s[nbt={Item:{tag:{CustomEnchantments:{XpBoost:2}}}}] if entity @e[distance=0.0001..1,nbt={Item:{tag:{CustomEnchantments:{XpBoost:1}}}},limit=1] run data remove entity @e[type=minecraft:item,sort=nearest,limit=1,distance=0.0001..1] Item.tag.CustomEnchantments.XpBoost
+
+function enchantplus:fusion/item_with_item/end

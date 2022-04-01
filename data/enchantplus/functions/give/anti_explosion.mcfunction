@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AntiExplosion",lvl:1}],display:{Lore:["{\"text\":\"Anti Explosion\",\"color\":\"gray\",\"italic\":false}"]}}

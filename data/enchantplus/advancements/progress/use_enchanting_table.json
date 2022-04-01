@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "New enchantments !",
+            "color": "dark_aqua",
+            "bold": true
+        },
+        "description": {
+            "text": "To obtain new enchantments, you have to throw the lapis ann an items on an enchantment table. The costs in Lapis, and Level are similar to Minecraft.",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "enchant": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"enchanttable\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/guide"
+}

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"SeedPlanter",lvl:1}],display:{Lore:["{\"text\":\"Seed Planter\",\"color\":\"gray\",\"italic\":false}"]}}

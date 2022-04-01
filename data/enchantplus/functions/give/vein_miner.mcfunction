@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"VeinMiner",lvl:1}],display:{Lore:["{\"text\":\"Vein Miner\",\"color\":\"gray\",\"italic\":false}"]}}

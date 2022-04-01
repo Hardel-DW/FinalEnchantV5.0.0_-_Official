@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"XpBoost",lvl:1}],display:{Lore:["{\"text\":\"Xp Boost I\",\"color\":\"gray\",\"italic\":false}"]}}

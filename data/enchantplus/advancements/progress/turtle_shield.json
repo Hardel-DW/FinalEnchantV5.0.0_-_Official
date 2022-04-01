@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Turtle shield"
+        },
+        "description": {
+            "text": "When a shot is blocked, it immobilizes you and makes you temporarily invulnerable."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{TurtleShield:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/shield"
+}

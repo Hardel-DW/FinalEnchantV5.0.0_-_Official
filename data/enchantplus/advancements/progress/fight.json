@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Fight !"
+        },
+        "description": {
+            "text": "You could also find the enchantments in battle."
+        },
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "kill": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"fight\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/explore"
+}

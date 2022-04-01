@@ -1,0 +1,3 @@
+data merge entity @s {Item:{tag:{AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"",Slot:"mainhand",Amount:100,Operation:0,UUIDMost:748748,UUIDLeast:748748},{AttributeName:"generic.knockbackResistance",Name:"",Slot:"offhand",Amount:100,Operation:0,UUIDMost:748748,UUIDLeast:748748}],HideFlags:2}}}
+data merge entity @s {Item:{tag:{CustomEnchantments:{AntiKnockback:1}}}}
+data modify entity @s Item.tag.EnchantSuccesfull set value 1

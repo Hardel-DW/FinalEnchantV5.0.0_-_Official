@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AccuracyShot",lvl:1}],display:{Lore:["{\"text\":\"Accuracy Shot\",\"color\":\"gray\",\"italic\":false}"]}}

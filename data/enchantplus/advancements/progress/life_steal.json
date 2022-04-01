@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Life steal"
+        },
+        "description": {
+            "text": "When you attack, you have a chance to steal health from your opponent."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{LifeSteal:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/bloody_blade"
+}

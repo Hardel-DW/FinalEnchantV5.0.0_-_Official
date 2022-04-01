@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:2}],display:{Lore:["{\"text\":\"Attack Speed II\",\"color\":\"gray\",\"italic\":false}"]}}

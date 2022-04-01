@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"Haste",lvl:2}],display:{Lore:["{\"text\":\"Haste II\",\"color\":\"gray\",\"italic\":false}"]}}

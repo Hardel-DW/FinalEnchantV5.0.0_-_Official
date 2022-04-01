@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Accuracy shot"
+        },
+        "description": {
+            "text": "The shot of your arrow will not be subject to gravity."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{AccuracyShot:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/bow"
+}

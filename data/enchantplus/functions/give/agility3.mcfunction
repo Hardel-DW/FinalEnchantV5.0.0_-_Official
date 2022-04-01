@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"Agility",lvl:3}],display:{Lore:["{\"text\":\"Agility III\",\"color\":\"gray\",\"italic\":false}"]}}

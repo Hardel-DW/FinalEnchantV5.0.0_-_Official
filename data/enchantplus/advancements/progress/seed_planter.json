@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Seed planter"
+        },
+        "description": {
+            "text": "Allows you to plant in a zone, you have to take this hoe in your hand (Right or left)."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{SeedPlanter:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/hoe"
+}

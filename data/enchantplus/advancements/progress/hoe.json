@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Hoe+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the hoe and its description."
+        },
+        "icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hoe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"hoe\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/toll"
+}

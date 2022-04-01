@@ -1,0 +1,1 @@
+execute as @a[gamemode=survival,tag=!wind,nbt={Inventory:[{Slot:102b,tag:{CustomEnchantments:{TheftProtection:1}}}]}] at @s run function enchantplus:result/theft_protection

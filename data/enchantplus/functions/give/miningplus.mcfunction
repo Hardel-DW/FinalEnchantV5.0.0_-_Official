@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"MiningPlus",lvl:1}],display:{Lore:["{\"text\":\"Mining+\",\"color\":\"gray\",\"italic\":false}"]}}

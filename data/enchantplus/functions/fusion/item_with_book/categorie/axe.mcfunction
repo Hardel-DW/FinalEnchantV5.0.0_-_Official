@@ -1,0 +1,1 @@
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{Timber:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"Timber",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/timber

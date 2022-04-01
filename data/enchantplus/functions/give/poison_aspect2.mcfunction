@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:2}],display:{Lore:["{\"text\":\"Poison Aspect II\",\"color\":\"gray\",\"italic\":false}"]}}

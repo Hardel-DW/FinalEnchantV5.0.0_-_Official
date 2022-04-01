@@ -1,0 +1,4 @@
+#Bow
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{BurstArrow:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BurstArrow",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/burst_arrow
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AntiExplosion:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiExplosion",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/anti_explosion
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AccuracyShot:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AccuracyShot",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/accuracy_shot

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"BeakerPlus",lvl:1}],display:{Lore:["{\"text\":\"Beaker+\",\"color\":\"gray\",\"italic\":false}"]}}

@@ -1,0 +1,1 @@
+give @s minecraft:enchanted_book{StoredCustomEnchantments:[{id:"Leaping",lvl:2}],display:{Lore:["{\"text\":\"Leaping II\",\"color\":\"gray\",\"italic\":false}"]}}

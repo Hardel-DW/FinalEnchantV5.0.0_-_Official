@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Enchant+ one years !"
+        },
+        "description": {
+            "text": "An enchantment to celebrate 1 year of Enchant+ that allows you to walk on cakes."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "enchant": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "parent": "enchantplus:progress/fight"
+}

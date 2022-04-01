@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Jam - Craft"
+        },
+        "description": {
+            "translate": "The advent of the new baguette power begins now."
+        },
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/quartz_block_side.png"
+    },
+    "criteria": {
+        "start": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bread"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

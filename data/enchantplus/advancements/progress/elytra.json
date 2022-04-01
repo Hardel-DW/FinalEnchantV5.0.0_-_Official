@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Elytra+"
+        },
+        "description": {
+            "text": "Find the list of enchantments linked to the elytra and its description."
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{EnchantPlus:{\"elytra\":true}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/armor"
+}

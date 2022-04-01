@@ -1,0 +1,28 @@
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/poison_aspect1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/poison_aspect2
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{PoisonAspect:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/poison_aspect3
+
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/attack_speed1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/attack_speed2
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AttackSpeed:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/attack_speed3
+
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:1}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/xp_boost1
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:2}}}}] if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/xp_boost2
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{XpBoost:3}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:3}]}}}] run function enchantplus:fusion/item_with_book/result/xp_boost3
+
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{LifeSteal:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"LifeSteal",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/life_steal
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{BloodyBlade:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"BloodyBlade",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/bloody_blade
+execute if entity @s[nbt=!{Item:{tag:{CustomEnchantments:{AntiExplosion:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AntiExplosion",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/anti_explosion
+
+#AttackSpped
+execute if entity @s[tag=!HasCustomEnchantPoisonAspect,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/poison_aspect2
+execute if entity @s[tag=!HasCustomEnchantPoisonAspect,nbt={Item:{tag:{CustomEnchantments:{PoisonAspect:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"PoisonAspect",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/poison_aspect3
+tag @s remove HasCustomEnchantPoisonAspect
+#Posion
+execute if entity @s[tag=!HasCustomEnchantAttackSpeed,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/attack_speed2
+execute if entity @s[tag=!HasCustomEnchantAttackSpeed,nbt={Item:{tag:{CustomEnchantments:{AttackSpeed:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"AttackSpeed",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/attack_speed3
+tag @s remove HasCustomEnchantAttackSpeed
+#WpBoost
+execute if entity @s[tag=!HasCustomEnchantXpBoost,nbt={Item:{tag:{CustomEnchantments:{XpBoost:1}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:1}]}}}] run function enchantplus:fusion/item_with_book/result/xp_boost2
+execute if entity @s[tag=!HasCustomEnchantXpBoost,nbt={Item:{tag:{CustomEnchantments:{XpBoost:2}}}}] if entity @e[distance=..1,sort=nearest,limit=1,nbt={Item:{tag:{StoredCustomEnchantments:[{id:"XpBoost",lvl:2}]}}}] run function enchantplus:fusion/item_with_book/result/xp_boost3
+tag @s remove HasCustomEnchantXpBoost

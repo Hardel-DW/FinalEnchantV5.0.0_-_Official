@@ -1,0 +1,2 @@
+data modify entity @s Item.tag.Enchantments append from entity @e[sort=nearest,limit=1,type=item,nbt={Item:{tag:{StoredEnchantments:[{}]}}}] Item.tag.StoredEnchantments[]
+data modify entity @s Item.tag.EnchantSuccesfull set value 1

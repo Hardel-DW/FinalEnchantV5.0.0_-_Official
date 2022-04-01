@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Anti explosion"
+        },
+        "description": {
+            "text": "Stops the explosions around you with a small probability."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{AntiExplosion:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/life_plus"
+}

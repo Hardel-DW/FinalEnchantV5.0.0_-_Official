@@ -1,0 +1,2 @@
+summon minecraft:item ~ ~0.5 ~ {Item:{id:"minecraft:stone",Count:1b,tag:{DestroyEnchantingTable:1}}}
+data modify entity @e[type=item,sort=nearest,limit=1,nbt={Item:{tag:{DestroyEnchantingTable:1}}}] Item set from entity @s ArmorItems[3]

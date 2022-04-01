@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Auto feed"
+        },
+        "description": {
+            "text": "Allows you to eat automatically, every minute."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{AutoFeed:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/chestplate"
+}

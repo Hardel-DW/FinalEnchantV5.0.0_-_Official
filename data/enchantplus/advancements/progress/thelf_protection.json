@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Thelf protection"
+        },
+        "description": {
+            "text": "Allows you to have armor points on the elytra."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{ThelfProtection:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/elytra"
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Burst arrow"
+        },
+        "description": {
+            "text": "Inflicts area damage to all entity around the impacted area."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{BurstArrow:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/accuracy_shot"
+}

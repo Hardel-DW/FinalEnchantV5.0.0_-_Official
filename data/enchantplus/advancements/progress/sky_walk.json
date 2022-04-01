@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Sky walk"
+        },
+        "description": {
+            "text": "Allows you to walk in the void, if 5 blocks separate you from the void."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{SkyWalk:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/agility"
+}

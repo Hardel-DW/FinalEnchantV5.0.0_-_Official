@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": " Enchant - Xp Boost"
+        },
+        "description": {
+            "text": "Increases the experience when you kill an entity. Available from Level I to Level III."
+        },
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chestplate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{CustomEnchantments:{XpBoost:1}}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "enchantplus:progress/poison_aspect"
+}

@@ -1,0 +1,5 @@
+execute if entity @s[nbt={Item:{id:"minecraft:diamond_axe"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:hoe_axe"}}] run function enchantplus:fusion/item_with_item/categorie/axe/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:golden_axe"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:hoe_axe"}}] run function enchantplus:fusion/item_with_item/categorie/axe/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:iron_axe"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:hoe_axe"}}] run function enchantplus:fusion/item_with_item/categorie/axe/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:stone_axe"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:hoe_axe"}}] run function enchantplus:fusion/item_with_item/categorie/axe/enchant
+execute if entity @s[nbt={Item:{id:"minecraft:wooden_axe"}}] if entity @e[distance=0.0001..1,nbt={Item:{id:"minecraft:hoe_axe"}}] run function enchantplus:fusion/item_with_item/categorie/axe/enchant
